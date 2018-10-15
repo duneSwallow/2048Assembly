@@ -2,7 +2,6 @@
 ##############################################################
 # Homework #4
 # name: Luke Cesario	
-# sbuid: 111009439
 ##############################################################
 .text
 
@@ -980,8 +979,8 @@ check_state:
 	jr $ra # exit function
 
 # (int, int) user_move(cell[][] board, int num_rows, int num_cols, char dir)
-# This function simulates a user’s move. dir can be one of the following values: ‘L’, ‘R’,
-# ‘U’ or ‘D’.
+# This function simulates a userÂ’s move. dir can be one of the following values: Â‘LÂ’, Â‘RÂ’,
+# Â‘UÂ’ or Â‘DÂ’.
 user_move:
 	addi $sp, $sp, -36
 	sw $s0, ($sp)
